@@ -27,8 +27,23 @@ nav.main {
 		nav.main li {
 			display:block;
 			float:left;
+			text-align:center;
 			width:100px;
+			margin:0;
+			padding:0;
 		}
+		
+			nav.main li a {
+				display:block;
+				line-height:30px;
+				width:100%;
+				text-align:center;
+				border-bottom:1px dotted #ccc;
+			}
+			
+			nav.main li a:hover {
+				border-bottom:1px solid #ccc;
+			}
 
 .index-top-widget-title {
 	font-size:30px;

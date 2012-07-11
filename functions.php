@@ -1,7 +1,9 @@
 <?
 
+/* Registrerar huvudmenyn */
 register_nav_menu('top-nav', 'Toppmeny');
 
+/* Första sidebaren, till höger om innehåll */
 if ( function_exists('register_sidebar') )
 {
 	register_sidebar(array(
@@ -13,6 +15,7 @@ if ( function_exists('register_sidebar') )
 	));	
 }
 
+/* Andra sidebaren, till höger om den första */
 if ( function_exists('register_sidebar') )
 {
 	register_sidebar(array(
@@ -24,6 +27,7 @@ if ( function_exists('register_sidebar') )
 	));	
 }
 
+/* Ett widget-område ovanför innehållet, för annonser/annat, syns endast på index */
 if ( function_exists('register_sidebar') )
 {
 	register_sidebar(array(
@@ -35,6 +39,7 @@ if ( function_exists('register_sidebar') )
 	));	
 }
 
+/* Ett widgetområde i sidfoten */
 if ( function_exists('register_sidebar') )
 {
 	register_sidebar(array(
@@ -46,6 +51,7 @@ if ( function_exists('register_sidebar') )
 	));	
 }
 
+/* Ett widgetområde ovanför innehållet för annonser/annat, syns endast på inlägg/sidor */
 if ( function_exists('register_sidebar') )
 {
 	register_sidebar(array(
@@ -65,5 +71,5 @@ add_filter('gallery_style',
 	create_function(
 		'$css', 
 		'return preg_replace("#<style type=\'text/css\'>(.*?)</style>#s", "", $css);'
-		)
-	);
+	)
+);

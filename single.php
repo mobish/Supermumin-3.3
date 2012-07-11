@@ -12,6 +12,7 @@
 	<?php while(have_posts()) : the_post(); ?>
 	
 	<article class="post-<?php the_ID(); ?>">
+		<date><?php the_date('Y-m-d'); ?></date>
 		<h1><a href="<?php the_permalink(); ?>" 
 		title="Permalänk till inlägget '<?php the_title(); ?>'">
 		<?php the_title(); ?>

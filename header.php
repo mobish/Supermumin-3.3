@@ -40,7 +40,7 @@
 				array (
 					'theme_location' => 'top-nav',
 					'container' => 'nav',
-					'container_class' => 'main nav'
+					'container_class' => 'main nav grid_12'
 				)); 
 		?>
 

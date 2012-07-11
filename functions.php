@@ -8,7 +8,7 @@ if ( function_exists('register_sidebar') )
 {
 	register_sidebar(array(
 		'name' => 'Sidebar',
-		'before_widget' => '<aside class="sidebar-box grid_3" id="%1$s">',
+		'before_widget' => '<aside class="sidebar-box grid_2 suffix_1" id="%1$s">',
 		'after_widget' => '</aside>',
 		'before_title' => '<span class="sidebar-title">',
 		'after_title' => '</span>'

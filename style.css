@@ -6,6 +6,14 @@ Author: Markus Lassinniemi
 Version: 1.0
 */
 
+header .headertext {
+	font-size:30px;
+}
+
+	header h1 {
+		font-size:11px;
+	}
+
 .index-top-widget-title {
 	font-size:30px;
 	color:red;

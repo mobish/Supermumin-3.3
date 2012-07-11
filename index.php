@@ -24,7 +24,7 @@
 		<?php the_content('Fortsätt läsa..'); ?>
 		
 		<footer>
-			<p>Taggat <?php the_tags(', '); ?></p>
+			<p>Taggat <?php the_tags('',', '); ?> och kategoriserat <?php the_category(', '); ?></p>
 		</footer>
 	</article>
 <?php endwhile; ?>

@@ -82,6 +82,31 @@ article.post {
 	border-bottom: 1px dotted #ccc;
 }
 	
+	article.post a {
+		color:#000;
+	}
+	
+	article.post a:hover {
+		text-decoration:none;
+		border-bottom:1px dotted #000;
+	}
+
+	article.post footer {
+		font-size:13px;
+		color:#aaa;
+	}
+	
+		article.post footer a {
+			color:#aaa;
+			text-decoration:none;
+			border-bottom: 1px dotted #bbb;
+		}
+		
+		article.post footer a:hover {
+			color:#000;
+			border-bottom: 1px dotted #aaa;
+		}
+	
 	article.post time {
 		font-size:30px;
 		margin-left:-30px;

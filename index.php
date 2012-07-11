@@ -8,7 +8,7 @@
 		<p>Ojsan hoppsan, det finns visst inga inlägg för tillfället! Men jag är säker på att det dyker upp några - så småningom.</p>
 	
 	<?php endif; ?>
-	<div id="posts-wrapper" class="grid_6">
+	<div id="posts-wrapper" class="grid_5 suffix_1">
 	<?php while(have_posts()) : the_post(); ?>
 	
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

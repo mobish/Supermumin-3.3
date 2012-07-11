@@ -76,6 +76,26 @@ aside.index-top-widget-box {
 	border-bottom:1px dotted #ccc;
 }
 
+article.post {
+	padding:10px 0;
+	margin:10px 0;
+	border-bottom: 1px dotted #ccc;
+}
+
+	article.post h1 {
+		
+	}
+		
+		article.post h1 a {
+			color:#000;
+		}
+
+
+
+
+
+
+/* SHIT FOR LATER */
 .gallery {}
 .gallery-item {}
 .gallery-icon {}

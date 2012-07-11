@@ -6,16 +6,27 @@ Author: Markus Lassinniemi
 Version: 1.0
 */
 
-header .headertext {
-	font-size:30px;
+header.main {
+	padding:25px 0;
+	border-bottom:1px dotted #ccc;
 }
 
-	header h1 {
-		font-size:11px;
+	header.main a {
+		color:#000;
+		text-decoration:none;
 	}
 
+	header.main .headertext {
+		font-size:30px;
+	}
+
+		header h1 {
+			font-size:11px;
+		}
+
 nav.main {
-	
+	padding:25px 0;
+	border-bottom:1px dotted #ccc;
 }
 
 	nav.main ul {
@@ -30,7 +41,7 @@ nav.main {
 			text-align:center;
 			width:100px;
 			margin:0;
-			padding:0;
+			padding-bottom:25px 0;
 		}
 		
 			nav.main li a {
@@ -38,7 +49,11 @@ nav.main {
 				line-height:30px;
 				width:100%;
 				text-align:center;
-				border-bottom:1px dotted #ccc;
+				padding-bottom:25px 0;
+				border-bottom:1px dotted #fff;
+				color:#000;
+				text-decoration:none;
+				font-weight:bold;
 			}
 			
 			nav.main li a:hover {

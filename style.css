@@ -25,7 +25,7 @@ header.main {
 		font-size:30px;
 	}
 
-		header h1 {
+		header.main h1 {
 			font-size:11px;
 		}
 
@@ -81,6 +81,13 @@ article.post {
 	margin:10px 0;
 	border-bottom: 1px dotted #ccc;
 }
+	
+	article.post time {
+		font-size:30px;
+		margin-left:-30px;
+		color:#ccc;
+		position:relative;
+	}
 
 	article.post h1 {
 		

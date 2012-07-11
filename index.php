@@ -8,21 +8,26 @@
 		<p>Ojsan hoppsan, det finns visst inga inlägg för tillfället! Men jag är säker på att det dyker upp några - så småningom.</p>
 	
 	<?php endif; ?>
-	<div id="posts-wrapper" class="grid_5 suffix_1">
+	<section id="posts-wrapper" class="grid_5 suffix_1">
 	<?php while(have_posts()) : the_post(); ?>
 	
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<time><?php the_date('Y-m-d'); ?></time>
-		<h1><a href="<?php the_permalink(); ?>" 
-		title="Permalänk till inlägget '<?php the_title(); ?>'">
-		<?php the_title(); ?>
-		</a></h1>
+		<header>
+			<time><?php the_date('Y-m-d'); ?></time>
+			<h1><a href="<?php the_permalink(); ?>" 
+			title="Permalänk till inlägget '<?php the_title(); ?>'">
+			<?php the_title(); ?>
+			</a></h1>
+		</header>
 		<?php edit_post_link('Editera inlägget', '<p>','</p>'); ?>
 		
 		<?php the_content('Fortsätt läsa..'); ?>
 		
+		<footer>
+			<p>Taggat <?php the_tags(', '); ?></p>
+		</footer>
 	</article>
 <?php endwhile; ?>
-	</div><!-- #posts-wrapper -->
+	</section><!-- #posts-wrapper -->
 
 <?php get_footer(); ?>

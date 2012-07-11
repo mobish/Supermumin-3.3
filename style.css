@@ -1,0 +1,37 @@
+/*
+Theme name: Supermumin done proper
+Theme URI: http://supermumin.net/
+Description: Ett tema för Supermumin.net
+Author: Markus Lassinniemi
+Version: 1.0
+*/
+
+.index-top-widget-title {
+	font-size:30px;
+	color:red;
+	font-weight:bold;
+}
+
+/* Default-mall för Wordpress galleri-funktion */
+/*
+
+			#gallery-1 {
+				margin: auto;
+			}
+			#gallery-1 .gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 33%;
+			}
+			#gallery-1 img {
+				border: 2px solid #cfcfcf;
+			}
+			#gallery-1 .gallery-caption {
+				margin-left: 0;
+
+*/
+.gallery {}
+.gallery-item {}
+.gallery-icon {}
+.gallery-caption {}

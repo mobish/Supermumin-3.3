@@ -9,11 +9,16 @@ Version: 1.0
 header.main {
 	padding:25px 0;
 	border-bottom:1px dotted #ccc;
+	color:#ccc;
 }
 
 	header.main a {
 		color:#000;
 		text-decoration:none;
+	}
+	
+	header.main a:hover {
+		color:#000;
 	}
 
 	header.main .headertext {
@@ -62,8 +67,13 @@ nav.main {
 
 .index-top-widget-title {
 	font-size:30px;
-	color:red;
 	font-weight:bold;
+}
+
+aside.index-top-widget-box {
+	padding:25px 0;
+	margin:0 0 25px 0;
+	border-bottom:1px dotted #ccc;
 }
 
 .gallery {}

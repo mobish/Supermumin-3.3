@@ -10,8 +10,8 @@ if ( function_exists('register_sidebar') )
 		'name' => 'Sidebar',
 		'before_widget' => '<aside class="sidebar-box grid_2 suffix_1" id="%1$s">',
 		'after_widget' => '</aside>',
-		'before_title' => '<span class="sidebar-title">',
-		'after_title' => '</span>'
+		'before_title' => '<div class="sidebar-title">',
+		'after_title' => '</div>'
 	));	
 }
 
@@ -22,8 +22,8 @@ if ( function_exists('register_sidebar') )
 		'name' => 'Second Sidebar',
 		'before_widget' => '<aside class="sidebar-box grid_3" id="%1$s">',
 		'after_widget' => '</aside>',
-		'before_title' => '<span class="sidebar-title">',
-		'after_title' => '</span>'
+		'before_title' => '<div class="sidebar-title">',
+		'after_title' => '</div>'
 	));	
 }
 
@@ -34,8 +34,8 @@ if ( function_exists('register_sidebar') )
 		'name' => 'Index Top Widget',
 		'before_widget' => '<aside class="index-top-widget-box grid_12" id="%1$s">',
 		'after_widget' => '</aside>',
-		'before_title' => '<span class="index-top-widget-title">',
-		'after_title' => '</span>'
+		'before_title' => '<div class="index-top-widget-title">',
+		'after_title' => '</div>'
 	));	
 }
 
@@ -46,8 +46,8 @@ if ( function_exists('register_sidebar') )
 		'name' => 'Footer Widget Area',
 		'before_widget' => '<aside class="footer-widget-box" id="%1$s">',
 		'after_widget' => '</aside>',
-		'before_title' => '<span class="footer-widget-title">',
-		'after_title' => '</span>'
+		'before_title' => '<div class="footer-widget-title">',
+		'after_title' => '</div>'
 	));	
 }
 
@@ -58,9 +58,9 @@ if ( function_exists('register_sidebar') )
 		'name' => 'Single Top Widget',
 		'before_widget' => '<aside class="single-top-widget-box" id="%1$s">',
 		'after_widget' => '</aside>',
-		'before_title' => '<span class="single-top-widget-title">',
-		'after_title' => '</span>'
-	));	
+		'before_title' => '<div class="single-top-widget-title">',
+		'after_title' => '</div>'
+	));
 }
 
 /* 

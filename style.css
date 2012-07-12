@@ -127,14 +127,14 @@ article.post {
 aside.sidebar-box {
 	padding:10px 0;
 	margin:10px 0;
-}
+}	
 
-	aside.sidebar-box .sidebar-title {
-		font-size:21px;
+	.sidebar-title {
+		font-size:15px;
 		font-weight:bold;
 		border-bottom:1px dotted #ccc;
-		padding:3px 0;
-		margin:3px 0;
+		padding:5px 0;
+		margin:5px 0 15px 0;
 	}
 
 

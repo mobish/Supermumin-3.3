@@ -124,8 +124,18 @@ article.post {
 		}
 
 
+aside.sidebar-box {
+	padding:10px 0;
+	margin:10px 0;
+}
 
-
+	aside.sidebar-box .sidebar-title {
+		font-size:21px;
+		font-weight:bold;
+		border-bottom:1px dotted #ccc;
+		padding:3px 0;
+		margin:3px 0;
+	}
 
 
 /* SHIT FOR LATER */
